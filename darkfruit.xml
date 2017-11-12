@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<style-scheme id="fruit" name="Fruit" version="1.0">
+	<author>mikazz</author>
+	<_description>Fruit theme</_description>
+	
+	<!-- Def Coloros -->
+	<color name="light_background" value="#2d2d2d"/>
+	<color name="dark_background" value="#111111"/>
+	<color name="light_gray" value="#aaaaaa"/>
+	<color name="dark_gray" value="#181818"/>
+	<color name="orange" value="#ffae00"/>
+	<color name="dark_red" value="#800000"/>
+	
+	
+	<!-- HELPER COLORS -->	
+	<!-- Background -->
+	<style background="dark_background" foreground="#ffffff" name="text"/>
+	<style background="light_gray" name="cursor"/>
+	<style background="orange" foreground="dark_red" name="search-match"/>
+	<style background="dark_gray" name="current-line"/>
+	<style background="dark_background" foreground="light_background" name="line-numbers"/>
+	<style background="dark_gray" foreground="light_background" name="selection" />
+
+	
+	<!-- DEFAULT COLORS -->
+	<style foreground="#fd8900" name="def:specials"/>
+	<style foreground="#0086d2" name="def:string"/>
+	<style foreground="#0086d2" name="def:constant"/>
+	<style bold="true" foreground="#0086f7" name="def:number"/>
+	<style bold="true" foreground="#fb660a" name="def:statement"/>
+	<style bold="true" foreground="#ff0086" name="def:function"/>
+	<style bold="true" foreground="#ff0007" name="def:preprocessor"/>
+	<style background="#0f140f" foreground="#00d2ff" italic="true" name="def:comment"/>
+	<style bold="true" foreground="#cdcaa9" name="def:type"/>
+	<style background="#ab0000" foreground="#ffffff" name="def:error"/>
+	<style bold="true" foreground="#ff0086" name="def:identifier"/>
+	
+</style-scheme>
+
